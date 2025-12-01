@@ -75,7 +75,7 @@ export function Hero() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        Senior Frontend / Full-stack Developer
+        Middle Frontend / Full-stack Developer
       </motion.h2>
 
       <motion.div 

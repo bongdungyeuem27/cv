@@ -1,6 +1,6 @@
 # LE KHANH
 
-**Senior Frontend / Full-stack Developer**
+**Middle Frontend / Full-stack Developer**
 
 📍 Tam Binh Ward (Thu Duc), Ho Chi Minh City, Vietnam  
 📱 +84 91 463 0145  

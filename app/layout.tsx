@@ -10,8 +10,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Le Khanh - Senior Frontend / Full-stack Developer",
-  description: "Portfolio and CV of Le Khanh, a Senior Frontend / Full-stack Developer based in Ho Chi Minh City.",
+  title: "Le Khanh - Middle Frontend / Full-stack Developer",
+  description: "Portfolio and CV of Le Khanh, a Middle Frontend / Full-stack Developer based in Ho Chi Minh City.",
 };
 
 export default function RootLayout({
