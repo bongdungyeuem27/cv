@@ -13,7 +13,7 @@ type ExperienceItem = {
   highlight?: string | ReactNode;
   details?: {
     title: string;
-    items: string[];
+    items: (string | ReactNode)[];
   }[];
   tech?: string[];
   link?: string;
@@ -89,15 +89,29 @@ const experiences: ExperienceItem[] = [
           "Managed CI/CD pipelines with Docker, GitHub Actions, Caddy, and multi-environment deployments.",
           "Strong proficiency in Linux environments and command-line tooling."
         ]
+      },
+      {
+        title: "Additional Project: BOB Airdrop Claim Platform",
+        items: [
+          "Built the production airdrop claim platform for BOB Network (The Gateway to Bitcoin DeFi), handling eligibility checks, Merkle-proof claims, and bot-resistant client-side cryptography.",
+          "Implemented a custom Reown/AppKit connector restricted to OKX Wallet for secure user authentication.",
+          "Used OpenZeppelin Merkle Proof to verify on-chain eligibility during airdrop claims.",
+          "Added WASM-based encryption with per-session random SEED to protect Merkle proofs and prevent automated bot claims.",
+          <span key="bob-link">
+            Main link: <a href="https://claimhq.xyz/bob" target="_blank" rel="noopener noreferrer" className="text-blue-500 dark:text-blue-400 hover:underline">https://claimhq.xyz/bob</a>
+          </span>
+        ]
       }
     ],
     tech: [
       "React 19", "Next.js", "Bun.js", "Zod", "Zustand", "Wagmi", "Viem", "TanStack Query",
       "NestJS", "GraphQL", "Hasura", "Redis", "Postgres", "Drizzle",
-      "Solidity", "Cosmos SDK", "Docker", "Cloudflare", "Playwright", "AI SDK"
+      "Solidity", "Cosmos SDK", "Docker", "Cloudflare", "Playwright", "AI SDK",
+      "Reown/AppKit", "OKX Wallet", "Merkle Proof", "WASM"
     ],
     link: "https://seitrace.com"
   },
+
   {
     role: "Full-stack Developer",
     company: "Mayfest (Freelance)",

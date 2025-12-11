@@ -185,6 +185,18 @@ export default function CVPage() {
                   </ul>
                 </div>
               </div>
+
+              
+              <div className="mt-4 pt-4 border-t border-gray-200">
+                <p className="text-sm font-bold">Additional Project: BOB Airdrop Claim Platform — <a href="https://claimhq.xyz/bob" target="_blank" rel="noopener noreferrer" className="underline">https://claimhq.xyz/bob</a></p>
+                <ul className="list-disc list-inside mt-2 text-sm ml-2">
+                  <li>Built the official eligibility and airdrop claim platform for BOB Network (<a href="https://www.gobob.xyz" target="_blank" rel="noopener noreferrer" className="underline">https://www.gobob.xyz</a>), a Bitcoin-secured hybrid chain for DeFi.</li>
+                  <li>Implemented a custom Reown/AppKit connector restricted to OKX Wallet, ensuring a secure and consistent connection flow for eligible users.</li>
+                  <li>Used OpenZeppelin Merkle Proof utilities to generate Merkle trees, deploy verification contracts, and validate on-chain airdrop eligibility.</li>
+                  <li>Designed a WASM-based cryptographic layer in the browser: each session generates a random SEED used to encrypt Merkle proofs, which are decrypted client-side only at claim time to prevent bot scraping and automated abuse.</li>
+                  <li>Delivered a stable, production-grade claim flow that can handle high traffic while preserving UX quality and security guarantees.</li>
+                </ul>
+              </div>
             </div>
 
             {/* Mayfest */}
@@ -273,7 +285,7 @@ export default function CVPage() {
               <p><strong>Backend (Mid-level):</strong> NestJS, Node.js, Golang, REST APIs, microservices, performance optimization</p>
             </div>
             <div>
-              <p><strong>Blockchain (Junior–Mid):</strong> Solidity (ERC-20/721), OpenZeppelin, Cosmos SDK fundamentals, Wallet integrations (Wagmi, Viem, Reown/AppKit)</p>
+              <p><strong>Blockchain (Junior–Mid):</strong> Solidity (ERC-20/721), OpenZeppelin (including Merkle Proof airdrop flows), Cosmos SDK fundamentals, wallet integrations (Wagmi, Viem, Reown/AppKit), custom OKX wallet connector development, WASM-based anti-bot cryptography for large-scale claim systems.</p>
             </div>
             <div>
               <p><strong>Database (Junior):</strong> PostgreSQL, MongoDB, Redis, TypeORM, Drizzle, Indexing, query optimization, Insert, copy, processing, manage billions row of data</p>
