@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 
 export default function CVPage() {
   return (
-    <main className="min-h-screen bg-white text-black p-8 md:p-16">
+    <main className="min-h-screen bg-white text-black p-6 md:p-16">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
-        <header className="text-center mb-8 pb-6 border-b-2 border-black">
+        <header className="text-center mb-6 pb-6 border-b-2 border-black">
           {/* Avatar */}
           <div className="mb-4 flex justify-center">
             <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-black">
@@ -43,7 +43,7 @@ export default function CVPage() {
         </header>
 
         {/* Profile */}
-        <section className="mb-8">
+        <section className="mb-6">
           <h2 className="text-xl font-bold mb-3 uppercase border-b border-black pb-1 flex items-center gap-2">
             <span className="text-2xl">●</span> Professional Summary
           </h2>
@@ -61,7 +61,7 @@ export default function CVPage() {
         </section>
 
         {/* Education */}
-        <section className="mb-8">
+        <section className="mb-6">
           <h2 className="text-xl font-bold mb-3 uppercase border-b border-black pb-1 flex items-center gap-2">
             <span className="text-2xl">●</span> Education
           </h2>
@@ -115,13 +115,13 @@ export default function CVPage() {
         </section>
 
         {/* Professional Experience  */}
-        <section className="mb-8">
+        <section className="mb-6">
           <h2 className="text-xl font-bold mb-3 uppercase border-b border-black pb-1 flex items-center gap-2">
             <span className="text-2xl">●</span> Professional Experience 
           </h2>
           <div className="space-y-6 divide-y divide-gray-300">
              {/* Cavies Lab */}
-            <div className="pt-0 first:pt-0">
+            <div className="pt-0 first:pt-0 pb-4">
               <div className="flex justify-between items-baseline">
                 <h3 className="font-bold">Full-stack & Blockchain Developer — Cavies Lab</h3>
                 <span className="text-sm italic">Feb 2024 – Oct 2025 | Remote</span>
@@ -273,7 +273,7 @@ export default function CVPage() {
         </section>
 
         {/* Technical Skills */}
-        <section className="mb-8">
+        <section className="mb-6">
           <h2 className="text-xl font-bold mb-3 uppercase border-b border-black pb-1 flex items-center gap-2">
             <span className="text-2xl">●</span> Technical Skills
           </h2>
@@ -297,7 +297,7 @@ export default function CVPage() {
         </section>
 
         {/* Languages */}
-        <section className="mb-8">
+        <section className="mb-6">
           <h2 className="text-xl font-bold mb-3 uppercase border-b border-black pb-1 flex items-center gap-2">
             <span className="text-2xl">●</span> Languages
           </h2>

@@ -59,7 +59,7 @@ export function Hero() {
       </motion.div>
 
       <motion.h1 
-        className="text-6xl md:text-8xl font-black mb-4 tracking-tighter"
+        className="text-4xl md:text-6xl lg:text-8xl font-black mb-4 tracking-tighter"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
@@ -70,7 +70,7 @@ export function Hero() {
       </motion.h1>
 
       <motion.h2 
-        className="text-xl md:text-3xl text-muted mb-8 font-light"
+        className="text-lg md:text-2xl lg:text-3xl text-muted mb-8 font-light"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3 }}
